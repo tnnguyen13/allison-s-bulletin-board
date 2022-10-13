@@ -1,7 +1,4 @@
 from setuptools import find_packages, setup
-from flask import Flask
-
-app = Flask(__name__)
 
 setup(
     name='flaskr',
@@ -12,9 +9,6 @@ setup(
         'flask',
     ],
 )
-
-if __name__ == '__main__':
-    app.run(debug=True)
 
 """
 contain) to include. find_packages() finds these directories 
